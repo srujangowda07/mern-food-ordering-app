@@ -41,6 +41,12 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+// Redirect root to frontend
+app.get('/', (req, res) => {
+  const frontend = process.env.FRONTEND_URL || 'https://food-ordering-app-frontend-lvbm.onrender.com';
+  return res.redirect(frontend);
+});
+
 // API routes
 app.use('/api/auth', authRoutes);
 app.use('/api/foods', foodRoutes);
