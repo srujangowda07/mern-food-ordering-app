@@ -125,7 +125,7 @@ export const deleteUser = async (req, res) => {
   try {
     const userId = req.params.id;
 
-    // Prevent admin from deleting themselves
+    // Preventing admin from deleting themselves
     if (req.user._id.toString() === userId) {
       return res.status(400).json({
         success: false,

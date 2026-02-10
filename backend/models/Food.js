@@ -74,7 +74,6 @@ const foodSchema = new mongoose.Schema({
   timestamps: true
 });
 
-// Index for search functionality
 foodSchema.index({ name: 'text', description: 'text' });
 foodSchema.index({ category: 1, available: 1 });
 foodSchema.index({ restaurant: 1, available: 1 });

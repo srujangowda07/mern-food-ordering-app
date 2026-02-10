@@ -112,7 +112,7 @@ Frontend runs at: `http://localhost:5173`
 
 ---
 
-## 🔥 API Endpoints Overview
+## API Endpoints Overview
 
 | Method | Endpoint         | Description                      |
 | ------ | ---------------- | -------------------------------- |
@@ -126,7 +126,7 @@ Frontend runs at: `http://localhost:5173`
 
 ---
 
-## ✅ Status
+## Status
 
 * ✅ DB seeded with Indian restaurants & food
 * ✅ Cart + Demo Checkout working
