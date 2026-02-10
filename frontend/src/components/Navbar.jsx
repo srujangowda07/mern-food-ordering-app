@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <span className="text-2xl font-bold text-blue-600">🍔 FoodOrder</span>
+            <span className="text-2xl font-bold text-blue-600">🍔 FoodBay</span>
           </Link>
 
           {/* Navigation Links */}

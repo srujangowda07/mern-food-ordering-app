@@ -21,7 +21,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
             <div className="text-3xl">🍔</div>
-            <span className="text-2xl font-bold text-gradient">FoodOrder</span>
+            <span className="text-2xl font-bold text-gradient">FoodBay</span>
           </Link>
 
           {/* Desktop Navigation */}
