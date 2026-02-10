@@ -4,6 +4,9 @@ A fully functional food ordering platform inspired by apps like Zomato and Swigg
 
 ---
 
+## Deployed Link 
+https://food-ordering-app-frontend-lvbm.onrender.com/
+
 ## Tech Stack
 
 * **Frontend:** React (Vite), Tailwind CSS
