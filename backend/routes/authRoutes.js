@@ -1,10 +1,6 @@
 import express from 'express';
 import { body } from 'express-validator';
-import {
-  register,
-  login,
-  getMe
-} from '../controllers/authController.js';
+import { register,login,getMe } from '../controllers/authController.js';
 import { authenticateToken } from '../middleware/authMiddleware.js';
 
 const router = express.Router();

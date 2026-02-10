@@ -4,7 +4,7 @@ A fully functional food ordering platform inspired by apps like Zomato and Swigg
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 * **Frontend:** React (Vite), Tailwind CSS
 * **Backend:** Node.js, Express.js, MongoDB, Mongoose
@@ -13,9 +13,9 @@ A fully functional food ordering platform inspired by apps like Zomato and Swigg
 
 ---
 
-## ✅ Key Features
+## Key Features
 
-### 👤 User Features
+### User Features
 
 * Login / Signup with JWT authentication
 * View **all restaurants** and **all food items**
@@ -25,7 +25,7 @@ A fully functional food ordering platform inspired by apps like Zomato and Swigg
 * View **order history**
 * Fully responsive UI
 
-### 🧑‍🍳 Restaurant
+###  Restaurant
 
 * Restaurant listing
 * Restaurant-specific food menus
@@ -33,7 +33,7 @@ A fully functional food ordering platform inspired by apps like Zomato and Swigg
 
 ---
 
-## 🗂️ Project File Structure
+## Project File Structure
 
 ```
 package.json
@@ -67,7 +67,7 @@ frontend/
 
 ---
 
-## 🔌 Environment Variables
+## Environment Variables
 
 Backend → `backend/.env`
 
@@ -86,11 +86,9 @@ Frontend → `frontend/.env`
 VITE_API_URL=http://localhost:5000/api
 ```
 
-> ⚠️ Do not commit `.env` — include `.env.example` for development reference
-
 ---
 
-## ▶️ How to Run Locally
+## How to Run Locally
 
 ### Backend
 
@@ -135,10 +133,3 @@ Frontend runs at: `http://localhost:5173`
 * ✅ Auth & Order history working
 * ⏳ UI Enhancements coming (modern cards, filters, animations)
 
----
-
-## 📜 License
-
-MIT — Free to use and modify
-
----

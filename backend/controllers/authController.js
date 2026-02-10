@@ -68,7 +68,6 @@ export const login = async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    // Find user and include password for comparison
     const user = await User.findOne({ email }).select('+password');
     if (!user) {
       return res.status(401).json({
@@ -77,7 +76,6 @@ export const login = async (req, res) => {
       });
     }
 
-    // Check if user is active
     if (!user.isActive) {
       return res.status(401).json({
         success: false,
@@ -85,7 +83,6 @@ export const login = async (req, res) => {
       });
     }
 
-    // Verify password
     const isPasswordValid = await user.comparePassword(password);
     if (!isPasswordValid) {
       return res.status(401).json({
@@ -94,7 +91,6 @@ export const login = async (req, res) => {
       });
     }
 
-    // Generate JWT token
     const token = jwt.sign(
       { userId: user._id, email: user.email, role: user.role },
       process.env.JWT_SECRET,
